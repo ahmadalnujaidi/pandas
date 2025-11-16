@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 #print("Pandas version:", pd.__version__)
 
 df = pd.read_csv('./data/data.csv', index_col="Name") # set Name as index
